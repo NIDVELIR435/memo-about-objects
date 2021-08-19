@@ -40,9 +40,16 @@ function countSolaries23(obj) {
 //* fifth task
 
 function multiplyNumeric(obj) {
-   for (let key in obj) {                    
+   for (let key in obj) {
       if (typeof obj[key] == 'number') {    // проверяет номер ли в данной итерации свойство 
          obj[key] *= 2;                     // если да, то умножает на 2
       }
    }
 }
+//* sixth task
+
+// будет выведено значение user.name -- 'Джон'
+
+//* seventh task
+
+// 3 и 4 значение теряют свои свойства this
